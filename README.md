@@ -21,6 +21,7 @@ The service can be configured through the following environment variables:
       - "./data/my-import-folder:/data/imports"
     environment:
       GRAPH: "http://mu.semte.ch/graphs/staatsblad"
+      ALLOW_MU_AUTH_SUDO: "true"
 ```
 
 ## FAQ
